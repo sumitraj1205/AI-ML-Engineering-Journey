@@ -1,0 +1,13 @@
+numbers = (10, 20, 30, 40, 50)
+
+print("Tuple:", numbers)
+print("Length:", len(numbers))
+print("First element:", numbers[0])
+print("Last element:", numbers[-1])
+print("Maximum:", max(numbers))
+print("Minimum:", min(numbers))
+print("Sum:", sum(numbers))
+print("Count of 20:", numbers.count(20))
+print("Index of 30:", numbers.index(30))
+print("First three:", numbers[:3])
+print("Last two:", numbers[-2:])
